@@ -73,7 +73,7 @@ git clone https://github.com/yashbhaskar/ROS2_Autonomous_Navigation_With_Docking
 git clone -b humble https://github.com/SteveMacenski/slam_toolbox.git
 ```
 
-### Clone SLAM Toolbox Repository
+### Clone Opennav Docking Repository
 ```bash
 git clone -b humble https://github.com/open-navigation/opennav_docking.git
 ```
@@ -90,6 +90,11 @@ sudo apt install ros-humble-nav2-bringup
 sudo apt install ros-humble-nav2-common
 sudo apt install ros-humble-nav2-map-server
 sudo apt install ros-humble-nav2-behavior-tree
+```
+
+### Install STVL (Spatio-Temporal Voxel Layer) 3D layer
+```bash
+sudo apt install ros-humble-spatio-temporal-voxel-layer
 ```
 
 ### Setup SLAM Localization
